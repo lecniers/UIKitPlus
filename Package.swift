@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "UIKitPlus",
     platforms: [
-       .macOS(.v10_14), .iOS(.v9),
+       .iOS(.v11),
     ],
     products: [
         // 🏰 Declarative UIKit wrapper inspired by SwiftUI
